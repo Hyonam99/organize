@@ -1,0 +1,31 @@
+.task_card_container {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: .3rem .8rem;
+    border-radius: .4rem;
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+    margin-bottom: .3rem;
+}
+
+.task_card_container small, 
+.task_card_container h4, 
+.task_card_container p {
+    margin: 0;
+    line-height: 1.1;
+}
+
+.task_card_container h4 {
+    text-transform: lowercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.task_card_delete-btn button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: large;
+}

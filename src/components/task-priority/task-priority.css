@@ -1,0 +1,11 @@
+.task_priority_container,
+.task_priority_container >label {
+    display: flex;
+    align-items: center;
+    gap: .8rem; 
+}
+
+.task_priority_container >label {
+    flex-direction: row-reverse;
+    gap: .2rem; 
+}

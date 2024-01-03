@@ -1,0 +1,36 @@
+.task_input_container {
+    color: var(--primary-color);
+    background-color: #fff;
+    padding: .3rem .8rem;
+    border-radius: .4rem;
+    margin-bottom: .8rem;
+}
+
+.task_input_container form,
+.task_input_container form >label {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.task_input_container form label input,
+.task_input_container form label textarea {
+    padding: .4rem;
+    resize: none;
+}
+
+.task_input_container form button {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: .6rem 1.2rem;
+    border-radius: .2rem;
+    border: none;
+    cursor: pointer;
+    margin: .2rem 0;
+    transition: all ease-out .4s;
+}
+
+.task_input_container form button:hover {
+    filter: drop-shadow(0 0 .2em #e467e9);
+    transition: all ease-in .4s;
+}
